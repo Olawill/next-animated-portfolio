@@ -78,24 +78,32 @@ const Navbar = () => {
 
       {/* SOCIAL ICONS */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link
+          href="https://github.com/Olawill"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="/github.png" alt="github" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/dribbble.png" alt="dribbble" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        {/* <Link href="/">
           <Image src="/facebook.png" alt="facebook" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        {/* <Link href="/">
           <Image src="/instagram.png" alt="instagram" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        <Link
+          href="https://linkedin.com/in/olawale-ajuwon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="/linkedin.png" alt="linkedin" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/pinterest.png" alt="pinterest" width={24} height={24} />
-        </Link>
+        </Link> */}
       </div>
 
       {/* RESPONSIVE NAVBAR */}
